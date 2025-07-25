@@ -1,0 +1,98 @@
+# .gitignore for C# / .NET / Visual Studio projects
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Visual Studio Code workspace settings
+*.code-workspace
+
+# Dotnet restore packages
+*.nupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.vspscc
+*.vssscc
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Pipelines
+azure-pipelines.yml
+
+# Test results
+TestResults/
+
+# Publish results
+*.publishsettings
+
+# Others
+*.dbmdl
+*.bak
+*.sql
+*.pdb
+*.cache
+*.config
+*.ide
+*.orig
+*.rej
+*.swp
+*.tmp
+*.vs
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.dll
+*.exe
+*.app
+*.lib
+*.x86
+*.x64
+*.pdb
+*.cache
+*.config
+*.ide
+*.orig
+*.rej
+*.swp
+*.tmp
+*.vs
+
+# Python test script
+__pycache__/
+*.pyc
