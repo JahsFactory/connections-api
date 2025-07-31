@@ -9,6 +9,18 @@ namespace ConnectionsApi.Data
         {
             new ConnectionsPuzzle
             {
+                Title = "July 31, 2025",
+                Date = "2025-07-31",
+                Groups = new List<PuzzleGroup>
+                {
+                    new PuzzleGroup { CategoryDescription = "Last _", HexColor = "", Words = new List<string> { "Laugh", "Resord", "Straw", "Supper" } },
+                    new PuzzleGroup { CategoryDescription = "Second _", HexColor = "", Words = new List<string> { "Coming", "Fiddle", "Guess", "Nature" } },
+                    new PuzzleGroup { CategoryDescription = "Third _", HexColor = "", Words = new List<string> { "Eye", "Party", "Rail", "Rock" } },
+                    new PuzzleGroup { CategoryDescription = "First _", HexColor = "", Words = new List<string> { "Aid", "Lady", "Nations", "Responder" } }
+                }
+            },
+            new ConnectionsPuzzle
+            {
                 Title = "July 30, 2025",
                 Date = "2025-07-30",
                 Groups = new List<PuzzleGroup>
